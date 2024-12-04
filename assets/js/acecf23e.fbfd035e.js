@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktravel=self.webpackChunktravel||[]).push([[1903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/minbro-travel/blog","blogTitle":"Blog","authorsListPath":"/minbro-travel/blog/authors"}')}}]);

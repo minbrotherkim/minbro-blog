@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktravel=self.webpackChunktravel||[]).push([[8641],{2039:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/minbro-travel/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
