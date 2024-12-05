@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: '여행 기록을 모아봅니다',
+  title: 'Minbro\'s Travel',
   tagline: '국내 그리고 해외 여행',
   favicon: 'img/favicon.ico',
 
@@ -68,7 +68,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'Minbro Travel',
+      title: 'Minbro\'s Travel',
       logo: {
         alt: '꽃카',
         src: 'img/logo.png',
