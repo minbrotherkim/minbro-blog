@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Minbro\'s Blog',
-  tagline: '국내 그리고 해외 여행',
+  tagline: '여행 기록, 그리고 회고',
   favicon: 'img/favicon.ico',
 
   url: 'https://minbrotherkim.github.io',
