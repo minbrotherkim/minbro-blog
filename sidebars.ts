@@ -13,6 +13,15 @@ const sidebars: SidebarsConfig = {
       dirName: '국내여행',
     },
   ],
+  diary: [
+    {
+      type: 'category',
+      label: '연간회고',
+      items: [
+        '연간회고/2024',
+      ],
+    },
+  ],
 };
 
 export default sidebars;

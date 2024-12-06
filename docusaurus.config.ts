@@ -74,6 +74,12 @@ const config: Config = {
           position: 'left',
           label: '국내여행',
         },
+        {
+          type: 'docSidebar',
+          sidebarId: 'diary',
+          position: 'left',
+          label: '연간 회고',
+        },
         // {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/minbrotherkim/minbro-blog',
