@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Minbro\'s Travel',
+  title: 'Minbro\'s Blog',
   tagline: '국내 그리고 해외 여행',
   favicon: 'img/favicon.ico',
 
@@ -13,7 +13,7 @@ const config: Config = {
   url: 'https://minbrotherkim.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/minbro-travel/',
+  baseUrl: '/minbro-blog/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -40,7 +40,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/minbrotherkim/minbro-travel',
+            'https://github.com/minbrotherkim/minbro-blog',
         },
         // blog: {
         //   showReadingTime: true,
@@ -68,7 +68,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'Minbro\'s Travel',
+      title: 'Minbro\'s Blog',
       logo: {
         alt: '꽃카',
         src: 'img/logo.png',
@@ -78,17 +78,17 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'foreign',
           position: 'left',
-          label: '해외',
+          label: '해외여행',
         },
         {
           type: 'docSidebar',
           sidebarId: 'domestic',
           position: 'left',
-          label: '국내',
+          label: '국내여행',
         },
         // {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/minbrotherkim/minbro-travel',
+          href: 'https://github.com/minbrotherkim/minbro-blog',
           label: 'GitHub',
           position: 'right',
         },
@@ -96,7 +96,7 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Minbrotherkim.`,
     },
     prism: {
       theme: prismThemes.github,
