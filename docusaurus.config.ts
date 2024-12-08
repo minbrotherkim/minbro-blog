@@ -78,7 +78,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'diary',
           position: 'left',
-          label: '연간 회고',
+          label: '연간회고',
         },
         // {to: '/blog', label: 'Blog', position: 'left'},
         {
