@@ -1,4 +1,5 @@
 import clsx from 'clsx';
+import Link from '@docusaurus/Link';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
@@ -15,7 +16,8 @@ const FeatureList: FeatureItem[] = [
         ImgSrc: require('@site/static/img/시라카와고.jpeg').default,
         description: (
             <>
-                나가시마 스파랜드에서 롤러코스터를 마음껏 타고, 다카야마와 시라카와고 버스투어를 하며 소도시를
+                <Link to="/docs/해외여행/일본/나고야">나고야</Link> 근교 나가시마 스파랜드에서 롤러코스터를 마음껏
+                타고, <Link to="/docs/해외여행/일본/다카야마,%20시라카와고">다카야마와 시라카와고</Link> 버스투어를 하며 소도시를
                 구경했던 4박5일간의 여행
             </>
         ),
