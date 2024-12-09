@@ -27,8 +27,8 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl:
-            'https://github.com/minbrotherkim/minbro-blog',
+          // editUrl:
+          //   'https://github.com/minbrotherkim/minbro-blog/tree/main',
         },
         // blog: {
         //   showReadingTime: true,
