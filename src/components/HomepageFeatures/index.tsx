@@ -11,12 +11,12 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
     {
-        title: 'Easy to Use',
-        ImgSrc: require('@site/static/img/docusaurus-social-card.jpg').default,
+        title: '전망대에서 바라본 시라카와고 마을',
+        ImgSrc: require('@site/static/img/시라카와고.jpeg').default,
         description: (
             <>
-                Docusaurus was designed from the ground up to be easily installed and
-                used to get your website up and running quickly.
+                나가시마 스파랜드에서 롤러코스터를 마음껏 타고, 다카야마와 시라카와고 버스투어를 하며 소도시를
+                구경했던 4박5일간의 여행
             </>
         ),
     },
