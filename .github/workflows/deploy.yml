@@ -29,9 +29,3 @@ jobs:
 
       - name: Build Docusaurus
         run: npm run build
-
-      - name: Deploy to GitHub Pages
-        env:
-          GIT_USER: "minbrotherkim"
-          USE_SSH: true
-        run: npm run deploy

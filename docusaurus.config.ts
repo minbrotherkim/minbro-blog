@@ -53,7 +53,7 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/logo.png',
+    image: 'img/pikachu.jpg',
     navbar: {
       title: 'Minbro\'s Blog',
       logo: {

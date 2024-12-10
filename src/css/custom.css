@@ -23,7 +23,7 @@
 
 .markdown img {
   display: block;
-  margin: 0 auto;
-  max-width: 400px; /* 크기 조정 */
+  margin: 10px auto;
+  max-height: 400px; /* 크기 조정 */
   border-radius: 8px;
 }
