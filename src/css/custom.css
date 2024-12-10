@@ -22,8 +22,14 @@
 }
 
 .markdown img {
+  display: inline-block;
+  max-height: 400px;
+  max-width: 100%;
+  border-radius: 8px;
+  margin: 10px;
+}
+
+.markdown img:only-of-type {
   display: block;
   margin: 10px auto;
-  max-height: 400px; /* 크기 조정 */
-  border-radius: 8px;
 }
