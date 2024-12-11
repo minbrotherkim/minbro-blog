@@ -27,8 +27,3 @@
   border-radius: 8px;
   margin: 10px;
 }
-
-.markdown img:only-of-type {
-  display: block;
-  margin: 10px auto;
-}
