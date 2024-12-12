@@ -5,20 +5,19 @@ import styles from './styles.module.css';
 
 type FeatureItem = {
     title: string;
-    Svg?: React.ComponentType<React.ComponentProps<'svg'>>;
     ImgSrc?: string;
     description: JSX.Element;
 };
 
 const FeatureList: FeatureItem[] = [
     {
-        title: '부산 여행 사진',
-        Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+        title: '기장 바다',
+        ImgSrc: require('@site/static/img/부산가족.jpeg').default,
         description: (
             <>
                 기장, 해운대, 그리고 남포동과 자갈치 시장까지,
                 <br />
-                짧지만 나름 이곳저곳 열심히 다녔던 부산 가족 여행
+                짧은 기간 동안 이곳저곳 열심히 다녔던 <Link to="/docs/국내여행/부산">부산</Link> 가족 여행
             </>
         ),
     },
@@ -34,8 +33,8 @@ const FeatureList: FeatureItem[] = [
         ),
     },
     {
-        title: '다카마쓰 사진',
-        Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+        title: '나오시마섬 노란 호박',
+        ImgSrc: require('@site/static/img/다카마쓰.jpeg').default,
         description: (
             <>
                 엄마와 함께한 다카마쓰-오카야마-히로시마 여행
@@ -45,8 +44,8 @@ const FeatureList: FeatureItem[] = [
         ),
     },
     {
-        title: '태국 사진',
-        Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+        title: '아유타야 사원',
+        ImgSrc: require('@site/static/img/아유타야.jpeg').default,
         description: (
             <>
                 나의 첫 태국 여행이자, 2024년 첫 가족 여행
@@ -56,8 +55,8 @@ const FeatureList: FeatureItem[] = [
         ),
     },
     {
-        title: '도쿄 사진',
-        Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+        title: '아사쿠사 신사',
+        ImgSrc: require('@site/static/img/도쿄사촌.jpeg').default,
         description: (
             <>
                 10살 어린 사촌동생과 함께 여행은 처음!
@@ -67,8 +66,8 @@ const FeatureList: FeatureItem[] = [
         ),
     },
     {
-        title: '삿포로 사진',
-        Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+        title: '노보리베츠 곰 목장',
+        ImgSrc: require('@site/static/img/삿포로.jpeg').default,
         description: (
             <>
                 내가 거의 모든 일정을 짠 건 처음이었던 가족 여행
@@ -82,8 +81,8 @@ const FeatureList: FeatureItem[] = [
         ),
     },
     {
-        title: '기타큐슈 사진',
-        Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+        title: '가라토 시장의 초밥, 복어회, 카이센동',
+        ImgSrc: require('@site/static/img/기타큐슈.jpeg').default,
         description: (
             <>
                 예전 회사 팀원분과 함께는 처음이었던 일본 여행
@@ -94,8 +93,8 @@ const FeatureList: FeatureItem[] = [
         ),
     },
     {
-        title: '부산 사진',
-        Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+        title: '부산역',
+        ImgSrc: require('@site/static/img/부산사촌.JPG').default,
         description: (
             <>
                 13살 차이나는 사촌동생과는 처음이었던 <Link to="/docs/국내여행/부산">부산</Link> 여행
@@ -106,15 +105,11 @@ const FeatureList: FeatureItem[] = [
     },
 ];
 
-function Feature({title, Svg, ImgSrc, description}: FeatureItem) {
+function Feature({title, ImgSrc, description}: FeatureItem) {
     return (
-        <div className={clsx('col col--4')}>
+        <div className={clsx('col col--4', styles.featureContainer)}>
             <div className="text--center">
-                {Svg ? (
-                    <Svg className={styles.featureSvg} role="img"/>
-                ) : ImgSrc ? (
-                    <img src={ImgSrc} alt={title} className={styles.featureImg}/>
-                ) : null}
+                {ImgSrc ? <img src={ImgSrc} alt={title} className={styles.featureImg}/> : null}
             </div>
             <div className="text--center padding-horiz--md">
                 <Heading as="h3">{title}</Heading>
