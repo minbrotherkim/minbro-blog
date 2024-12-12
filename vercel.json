@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/minbro-blog/:path*",
+      "destination": "/:path*"
+    }
+  ]
+}
