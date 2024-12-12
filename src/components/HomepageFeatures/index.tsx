@@ -13,7 +13,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
     {
         title: '기장 바다',
-        ImgSrc: require('@site/static/img/부산가족.jpeg').default,
+        ImgSrc: require('@site/static/img/busan_family.jpeg').default,
         description: (
             <>
                 기장, 해운대, 그리고 남포동과 자갈치 시장까지,
@@ -24,7 +24,7 @@ const FeatureList: FeatureItem[] = [
     },
     {
         title: '전망대에서 바라본 시라카와고 마을',
-        ImgSrc: require('@site/static/img/시라카와고.jpeg').default,
+        ImgSrc: require('@site/static/img/shirakawago.jpeg').default,
         description: (
             <>
                 사촌동생과 <Link to="/docs/해외여행/일본/나고야">나고야</Link> 근교 나가시마 스파랜드에서 롤러코스터를 마음껏
@@ -35,7 +35,7 @@ const FeatureList: FeatureItem[] = [
     },
     {
         title: '나오시마섬 노란 호박',
-        ImgSrc: require('@site/static/img/다카마쓰.jpeg').default,
+        ImgSrc: require('@site/static/img/takamatsu.jpeg').default,
         description: (
             <>
                 엄마와 함께한 다카마쓰-오카야마-히로시마 여행
@@ -46,7 +46,7 @@ const FeatureList: FeatureItem[] = [
     },
     {
         title: '아유타야 사원',
-        ImgSrc: require('@site/static/img/아유타야.jpeg').default,
+        ImgSrc: require('@site/static/img/ayutaya.jpeg').default,
         description: (
             <>
                 나의 첫 태국 여행이자, 2024년 첫 가족 여행
@@ -57,7 +57,7 @@ const FeatureList: FeatureItem[] = [
     },
     {
         title: '아사쿠사 신사',
-        ImgSrc: require('@site/static/img/도쿄사촌.jpeg').default,
+        ImgSrc: require('@site/static/img/tokyo_cousin.jpeg').default,
         description: (
             <>
                 10살 어린 사촌동생과 함께 여행은 처음!
@@ -68,7 +68,7 @@ const FeatureList: FeatureItem[] = [
     },
     {
         title: '노보리베츠 곰 목장',
-        ImgSrc: require('@site/static/img/삿포로.jpeg').default,
+        ImgSrc: require('@site/static/img/sapporo.jpeg').default,
         description: (
             <>
                 내가 거의 모든 일정을 짠 건 처음이었던 가족 여행
@@ -83,7 +83,7 @@ const FeatureList: FeatureItem[] = [
     },
     {
         title: '가라토 시장의 초밥, 복어회, 카이센동',
-        ImgSrc: require('@site/static/img/기타큐슈.jpeg').default,
+        ImgSrc: require('@site/static/img/kitakyushu.jpeg').default,
         description: (
             <>
                 예전 회사 팀원분과 함께는 처음이었던 일본 여행
@@ -95,7 +95,7 @@ const FeatureList: FeatureItem[] = [
     },
     {
         title: '부산역',
-        ImgSrc: require('@site/static/img/부산사촌.JPG').default,
+        ImgSrc: require('@site/static/img/busan_cousin.JPG').default,
         description: (
             <>
                 13살 차이나는 사촌동생과는 처음이었던 <Link to="/docs/국내여행/부산">부산</Link> 여행
