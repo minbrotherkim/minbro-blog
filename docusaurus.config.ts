@@ -2,6 +2,11 @@ import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
+const isVercel = process.env.VERCEL === '1';
+const baseImageUrl = isVercel
+    ? 'https://minbro-blog.vercel.app/img/pikachu.jpg'
+    : 'https://minbrotherkim.github.io/minbro-blog/img/pikachu.jpg';
+
 const config: Config = {
   title: 'Minbro\'s Blog',
   tagline: '여행 기록, 그리고 회고',
@@ -53,7 +58,7 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: '/minbro-blog/img/pikachu.jpg',
+    image: baseImageUrl,
     navbar: {
       title: 'Minbro\'s Blog',
       logo: {
