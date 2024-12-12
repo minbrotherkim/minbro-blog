@@ -8,7 +8,7 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   url: 'https://minbrotherkim.github.io',
-  baseUrl: '/',
+  baseUrl: '/minbro-blog/',
 
   organizationName: 'minbrotherkim',
   projectName: 'minbro-blog',
