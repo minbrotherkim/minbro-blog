@@ -38,7 +38,7 @@ const FeatureList: FeatureItem[] = [
         ImgSrc: require('@site/static/img/takamatsu.jpeg').default,
         description: (
             <>
-                엄마와 함께한 다카마쓰-오카야마-히로시마 여행
+                엄마와 함께한 <Link to="/docs/해외여행/일본/다카마쓰">다카마쓰</Link>-<Link to="/docs/해외여행/일본/오카야마">오카야마</Link>-<Link to="/docs/해외여행/일본/히로시마">히로시마</Link> 여행
                 <br/>
                 다양한 전시와 박물관, 정원, 관광명소, 식당과 음식이 함께했던 즐거운 여행
             </>
@@ -51,7 +51,7 @@ const FeatureList: FeatureItem[] = [
             <>
                 나의 첫 태국 여행이자, 2024년 첫 가족 여행
                 <br/>
-                왕궁과 음식이 기억에 남는 방콕, 그리고 옛 터가 생각보다 웅장했던 아유타야
+                왕궁과 음식이 기억에 남는 <Link to="/docs/해외여행/태국/방콕">방콕</Link>, 그리고 옛 터가 생각보다 웅장했던 <Link to="/docs/해외여행/태국/아유타야">아유타야</Link>
             </>
         ),
     },
@@ -89,7 +89,7 @@ const FeatureList: FeatureItem[] = [
                 예전 회사 팀원분과 함께는 처음이었던 일본 여행
                 <br/>
                 너무 맛있어서 이틀 동안 두번 간 초밥 시장이 있던 <Link to="/docs/해외여행/일본/기타큐슈">기타큐슈</Link>, 
-                잘 먹고 심지어 헬스장에서 운동까지 했던 후쿠오카
+                잘 먹고 심지어 헬스장에서 운동까지 했던 <Link to="/docs/해외여행/일본/후쿠오카">후쿠오카</Link>
             </>
         ),
     },
