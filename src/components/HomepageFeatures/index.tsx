@@ -2,10 +2,11 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
+import {JSX} from "react";
 
 type FeatureItem = {
     title: string;
-    ImgSrc?: string;
+    ImgSrc: string;
     description: JSX.Element;
 };
 

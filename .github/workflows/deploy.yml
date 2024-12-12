@@ -3,7 +3,7 @@ name: Deploy Docusaurus to GitHub Pages
 on:
   push:
     branches:
-      - main  # 메인 브랜치에서 변경이 발생할 때 빌드 및 배포
+      - main
 
 jobs:
   deploy:
@@ -17,15 +17,14 @@ jobs:
         with:
           node-version: 18
 
-      - name: Set up SSH
-        run: |
-          mkdir -p ~/.ssh
-          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan -H github.com >> ~/.ssh/known_hosts
+      - name: Install pnpm
+        run: npm install -g pnpm
 
       - name: Install dependencies
-        run: npm install
+        run: pnpm install
 
       - name: Build Docusaurus
-        run: npm run build
+        run: pnpm build
+
+      - name: Deploy to GitHub Pages
+        run: pnpm deploy
