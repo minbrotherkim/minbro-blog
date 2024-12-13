@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Minbro\'s Blog',
   tagline: '여행 기록, 그리고 회고',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/nuo_favicon.ico',
 
   url: 'https://minbrotherkim.github.io',
   baseUrl: '/minbro-blog/',
@@ -53,12 +53,12 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/pikachu.jpg',
+    image: 'img/nuo_thumbnail.jpg',
     navbar: {
       title: 'Minbro\'s Blog',
       logo: {
-        alt: '꽃카',
-        src: 'img/logo.png',
+        alt: '누오',
+        src: 'img/nuo_logo.png',
       },
       items: [
         {
