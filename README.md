@@ -1,41 +1,47 @@
-# Website
+# 🌍 Minbro's Blog
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+여행 기록과 연간 회고를 공유하는 개인 블로그입니다.  
+이 프로젝트는 [Docusaurus](https://docusaurus.io/)와 [Vercel](https://vercel.com/)을 활용해 구축되었으며, 
+정적 사이트와 SSR(서버 사이드 렌더링)을 병행하였습니다.
 
-### Installation
+---
 
-```
-$ yarn
-```
+## 📖 블로그 소개
 
-### Local Development
+- **여행 기록** : 국내외 여행에서 느꼈던 경험과 감상을 공유합니다.
+- **연간 회고** : 한 해 동안 굵직했던 사건들을 간단하게 정리리해놓습니다.
 
-```
-$ yarn start
-```
+---
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## 🚀 프로젝트 정보
 
-### Build
+### 기술 스택
+- **Framework**: [Docusaurus](https://docusaurus.io/)
+- **Styling**: Custom CSS
+- **Hosting**: [Vercel](https://vercel.com/) / GitHub Pages
 
-```
-$ yarn build
-```
+### 주요 기능
+- **문서 기반 블로그**: Docusaurus로 효율적인 콘텐츠 관리
+- **SSR 지원**: Vercel을 통해 서버 사이드 렌더링 구현
+- **빠른 배포**: GitHub Actions를 활용하여 `yarn deploy` 시 자동 배포
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+---
 
-### Deployment
+## 🌐 배포 링크
 
-Using SSH:
+- **GitHub Pages**: [minbrotherkim.github.io/minbro-blog](https://minbrotherkim.github.io/minbro-blog/)
+- **Vercel**: [minbro-blog.vercel.app/minbro-blog](https://minbro-blog.vercel.app/)
 
-```
-$ USE_SSH=true yarn deploy
-```
+---
 
-Not using SSH:
+## 📂 프로젝트 구조
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+```plaintext
+minbro-blog/
+├── docs/                # 해외여행, 국내여행, 연간회고 문서
+├── src/
+│   ├── css/             # 커스텀 스타일
+│   ├── components/      # 리액트 컴포넌트
+├── static/              # 정적 리소스 (이미지, 폰트 등)
+├── docusaurus.config.js # Docusaurus 설정 파일
+└── vercel.json          # Vercel 배포 설정
