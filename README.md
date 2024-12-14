@@ -1,15 +1,15 @@
 # 🌍 Minbro's Blog
 
 여행 기록과 연간 회고를 공유하는 개인 블로그입니다.  
-이 프로젝트는 [Docusaurus](https://docusaurus.io/)와 [Vercel](https://vercel.com/)을 활용해 구축되었으며, 
+이 프로젝트는 [Docusaurus](https://docusaurus.io/)와 [Vercel](https://vercel.com/)을 활용해 구축되었으며,  
 정적 사이트와 SSR(서버 사이드 렌더링)을 병행하였습니다.
 
 ---
 
 ## 📖 블로그 소개
 
-- **여행 기록** : 국내외 여행에서 느꼈던 경험과 감상을 공유합니다.
-- **연간 회고** : 한 해 동안 굵직했던 사건들을 간단하게 정리리해놓습니다.
+- **여행기록** : 국내와 해외 여행을 하면서 느꼈던 특징과 꿀팁, 그리고 추천 관광지, 식당, 카페를 공유합니다.
+- **연간회고** : 한 해 동안 중요하다고 느끼는 사건들을 간단하게 정리해놓습니다.
 
 ---
 
@@ -21,7 +21,7 @@
 - **Hosting**: [Vercel](https://vercel.com/) / GitHub Pages
 
 ### 주요 기능
-- **문서 기반 블로그**: Docusaurus로 효율적인 콘텐츠 관리
+- **문서 기반 블로그**: Docusaurus을 통해 정적 사이트 기반 콘텐츠 페이지 구현
 - **SSR 지원**: Vercel을 통해 서버 사이드 렌더링 구현
 - **빠른 배포**: GitHub Actions를 활용하여 `yarn deploy` 시 자동 배포
 
@@ -29,8 +29,8 @@
 
 ## 🌐 배포 링크
 
-- **GitHub Pages**: [minbrotherkim.github.io/minbro-blog](https://minbrotherkim.github.io/minbro-blog/)
-- **Vercel**: [minbro-blog.vercel.app/minbro-blog](https://minbro-blog.vercel.app/)
+- **GitHub Pages**: [minbrotherkim.github.io/minbro-blog](https://minbrotherkim.github.io/minbro-blog)
+- **Vercel**: [minbro-blog.vercel.app/minbro-blog](https://minbro-blog.vercel.app/minbro-blog)
 
 ---
 
