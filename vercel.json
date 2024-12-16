@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/minbro-blog/:path*",
-      "destination": "/:path*"
+      "destination": "minbro-blog/index.html"
     }
   ]
 }
