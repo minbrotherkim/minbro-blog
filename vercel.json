@@ -4,5 +4,12 @@
       "source": "/minbro-blog/:path*",
       "destination": "/:path*"
     }
+  ],
+  "redirects": [
+    {
+      "source": "/minbro-blog/:path*",
+      "destination": "/minbro-blog/index.html",
+      "statusCode": 200
+    }
   ]
 }
