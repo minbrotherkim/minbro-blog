@@ -30,7 +30,7 @@
 ## 🌐 배포 링크
 
 - **GitHub Pages**: [minbrotherkim.github.io/minbro-blog](https://minbrotherkim.github.io/minbro-blog)
-- **Vercel**: [minbro-blog.vercel.app/minbro-blog](https://minbro-blog.vercel.app/minbro-blog)
+- **Vercel**: [minbro-blog.vercel.app/minbro-blog](https://minbro-blog.vercel.app)
 
 ---
 
