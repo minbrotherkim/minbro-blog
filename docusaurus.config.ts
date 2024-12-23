@@ -42,6 +42,9 @@ const config: Config = {
 
   themeConfig: {
     image: 'img/nuo_thumbnail.jpg',
+    colorMode: {
+      defaultMode: 'dark',
+    },
     navbar: {
       title: 'Minbro\'s Blog',
       logo: {
