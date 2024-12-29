@@ -16,7 +16,7 @@ function HomepageHeader() {
                     {siteConfig.title}
                 </Heading>
                 <p className="hero__subtitle">{siteConfig.tagline}</p>
-                <p>※오사카, 국내여행은 업데이트 중입니다.</p>
+                <p>※국내여행은 업데이트 중입니다.</p>
             </div>
         </header>
     );
