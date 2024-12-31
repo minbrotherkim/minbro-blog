@@ -23,8 +23,8 @@
 
 .markdown img {
   display: inline-block;
-  height: 400px;
-  width: 400px;
+  height: 380px;
+  width: 340px;
   object-fit: cover;
   object-position: center;
   border-radius: 8px;
